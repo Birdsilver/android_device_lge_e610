@@ -13,8 +13,8 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-# Inherit some common CM stuff.
-$(call inherit-product, vendor/cm/config/common_mini_phone.mk)
+# Inherit some common GlazeOS stuff.
+$(call inherit-product, vendor/glaze/config/common_mini_phone.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/lge/e610/full_e610.mk)
