@@ -17,12 +17,12 @@
 # inherit from the proprietary things
 include device/lge/msm7x27a-common/BoardConfigCommon.mk
 include vendor/lge/e610/BoardConfigVendor.mk
-KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/arm/arm-linux-androideabi-4.9/bin
-KERNEL_TOOLCHAIN_PREFIX := arm-linux-androideabi-
 
 # Kernel
 BOARD_KERNEL_CMDLINE := androidboot.hardware=m4 androidboot.selinux=permissive
 TARGET_KERNEL_CONFIG := cyanogenmod_m4_nonfc_defconfig
+KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/arm/arm-linux-androideabi-4.9/bin
+KERNEL_TOOLCHAIN_PREFIX := arm-linux-androideabi-
 
 # Partitions
 BOARD_BOOTIMAGE_PARTITION_SIZE := 8388608
