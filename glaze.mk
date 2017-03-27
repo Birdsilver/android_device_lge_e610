@@ -20,5 +20,5 @@ $(call inherit-product, vendor/glaze/config/common_mini_phone.mk)
 $(call inherit-product, device/lge/e610/full_e610.mk)
 
 # Device identifier. This must come after all inclusions
-PRODUCT_NAME := cm_e610
+PRODUCT_NAME := glaze_e610
 PRODUCT_RELEASE_NAME := L5
