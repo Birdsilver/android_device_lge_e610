@@ -1,4 +1,4 @@
-# Copyright 2016 The Android Open Source Project
+ Copyright 2016 The Android Open Source Project
 # Copyright 2016 TeamHacklG
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -14,7 +14,7 @@
 # limitations under the License.
 
 # Inherit some common GlazeOS stuff.
-$(call inherit-product, vendor/glaze/config/common_mini_phone.mk)
+$(call inherit-product, vendor/glaze/config/common_full_phone.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/lge/e610/full_e610.mk)
