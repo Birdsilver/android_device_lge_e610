@@ -17,5 +17,5 @@ add_lunch_combo aosp_e610-userdebug
 add_lunch_combo aosp_e610-eng
 add_lunch_combo full_e610-userdebug
 add_lunch_combo full_e610-eng
-add_lunch_combo cm_e610-eng
-add_lunch_combo cm_e610-userdebug
+add_lunch_combo glaze_e610-eng
+add_lunch_combo glaze_e610-userdebug
