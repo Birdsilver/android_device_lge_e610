@@ -21,8 +21,6 @@ include vendor/lge/e610/BoardConfigVendor.mk
 # Kernel
 BOARD_KERNEL_CMDLINE := androidboot.hardware=m4 androidboot.selinux=permissive
 TARGET_KERNEL_CONFIG := lineage_m4_nonfc_defconfig
-KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/arm/arm-eabi-4.8/bin
-KERNEL_TOOLCHAIN_PREFIX := arm-eabi-
 
 # Partitions
 BOARD_BOOTIMAGE_PARTITION_SIZE := 8388608
